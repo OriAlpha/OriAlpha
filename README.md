@@ -1,6 +1,53 @@
-# 💫 About Me:
-🔭 I’m currently working on: Engineering AI-powered RAG chatbots and agentic NLP pipelines to improve research efficiency.<br>👯 I’m looking to collaborate on: Open-source projects focused on deep learning inference optimization and high-performance model deployment.<br>🤝 I’m looking to: Mastering advanced multi-agent orchestration and staying ahead of the curve in 2026's LLM research trends.<br>🌱 I’m currently learning: Advanced local-first RAG techniques, dense vector indexing with FAISS, and scaling workflows in Slurm-based HPC environments.<br>💬 Ask me about: Model pruning, quantization, NLP preprocessing pipelines, and deploying machine learning on embedded ARM systems.<br>⚡ Fun fact: I have a knack for speed—I've previously improved model performance by 2-4x through custom quantization and graph transformations.
+<img src="allocation.svg" alt="Cluster allocation map: 64 of 96 GPUs held by 8 projects" width="100%">
 
+# Suhas Goravale Siddaramu
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![OpenAPI Specification](https://img.shields.io/badge/openapiinitiative-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![Xbox](https://img.shields.io/badge/xbox-%23107C10.svg?style=for-the-badge&logo=xbox&logoColor=white) ![PlayStation Network](https://img.shields.io/badge/PSN-%230070D1.svg?style=for-the-badge&logo=Playstation&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)
+**I work on the layer between a model and the metal it runs on.**
+
+Computer Research Scientist, AI at Universitätsklinikum Tübingen. Seven years
+of getting models to run somewhere real — on RADAR hardware in a car, across a
+Slurm cluster, or entirely offline on someone's own machine.
+
+📍 Reutlingen, Germany &nbsp;·&nbsp; 🌐 **[orialpha.github.io](https://orialpha.github.io)** &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/goravalesuhas)
+
+---
+
+### What I'm building
+
+| | | |
+|---|---|---|
+| **[Autotrainer](https://github.com/OriAlpha/Autotrainer)** | Hand it a model and data — it finds the hardware, picks the distribution strategy, and infers the training recipe. PyTorch DDP, Slurm multi-node, TensorFlow, scikit-learn through one API. | `Python` |
+| **[SlurmGenie](https://github.com/OriAlpha/SlurmGenie)** | An offline copilot for Slurm GPU clusters. Diagnoses failed jobs, watches GPU utilization, rewrites sbatch scripts. Installs air-gapped. | `Python` |
+| **[InfraSight](https://github.com/OriAlpha/InfraSight)** | A transparent proxy that watches LLM, RAG and agent traffic — request logs, PII masking, nested agent traces, LLM-as-a-judge scoring. | `JavaScript` |
+| **[The Vault](https://github.com/OriAlpha/Local-RAG-System)** | Local RAG that never leaves the machine. Ollama for generation, FAISS for millisecond retrieval, two models racing side by side. | `Python` |
+| **[PivotDesk](https://github.com/OriAlpha/PivotDesk)** | Live pivot-point dashboard for NSE stocks, with a swing panel of moving averages, RSI, MACD, Supertrend and ATR. | `Python` |
+
+<details>
+<summary>Where I've worked</summary>
+
+<br>
+
+| Role | Where | When |
+|---|---|---|
+| Computer Research Scientist, AI | Universitätsklinikum Tübingen | Aug 2024 — present |
+| Deep Learning Inference Engineer | Ella Lab GmbH, Köln | Apr 2022 — Jul 2024 |
+| Machine Learning Engineer, Innovation | Clinomic GmbH, Aachen | Jan 2021 — Mar 2022 |
+| Working Student, Data Science & AI | Aptiv Services Germany GmbH | Apr 2019 — Dec 2020 |
+
+M.Sc. Embedded Systems, TU Chemnitz · B.E. Electronics & Communication, VTU
+
+</details>
+
+---
+
+### Stack
+
+- **Training & inference** — PyTorch · DDP · FSDP · TensorFlow · Keras · ONNX · TVM · scikit-learn · OpenCV
+- **LLM & retrieval** — HuggingFace · LangChain · Ollama · FAISS · vector databases
+- **Clusters & MLOps** — Slurm · Docker · Kubernetes · Podman · Argo Workflows · GitLab CI · GitHub Actions · GCP · AWS
+- **Languages** — Python · Bash · SQL · C
+
+---
+
+<sub>Ask me about distributed training, pruning and quantization, or ML on embedded ARM.
+Best result so far: 2–4× faster inference, pruning and quantizing RADAR models onto an ARM target.</sub>
