@@ -1,12 +1,15 @@
-<img src="allocation.svg" alt="Cluster allocation map: 64 of 96 GPUs held by 8 projects" width="100%">
+<img src="signal-path.svg" alt="Signal path: model and data, through PyTorch or TensorFlow, into Autotrainer and Slurm, onto the GPUs" width="100%">
 
 # Suhas Goravale Siddaramu
 
 **I work on the layer between a model and the metal it runs on.**
 
 Computer Research Scientist, AI at Universitätsklinikum Tübingen. Seven years
-of getting models to run somewhere real — on RADAR hardware in a car, across a
-Slurm cluster, or entirely offline on someone's own machine.
+of getting models to run somewhere real — distributed across a Slurm cluster,
+served through a traced inference pipeline, or running entirely offline on
+someone's own machine.
+
+**Focus** — LLM fine-tuning and serving · agentic RAG pipelines · multi-node training · inference optimization
 
 📍 Reutlingen, Germany &nbsp;·&nbsp; 🌐 **[orialpha.github.io](https://orialpha.github.io)** &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/goravalesuhas)
 
@@ -29,9 +32,9 @@ Slurm cluster, or entirely offline on someone's own machine.
 
 | Role | Where | When |
 |---|---|---|
-| Computer Research Scientist, AI | Universitätsklinikum Tübingen | Aug 2024 — present |
-| Deep Learning Inference Engineer | Ella Lab GmbH, Köln | Apr 2022 — Jul 2024 |
-| Machine Learning Engineer, Innovation | Clinomic GmbH, Aachen | Jan 2021 — Mar 2022 |
+| **Computer Research Scientist, AI** | Universitätsklinikum Tübingen | Aug 2024 — present |
+| **Deep Learning Inference Engineer** | Ella Lab GmbH, Köln | Apr 2022 — Jul 2024 |
+| **Machine Learning Engineer, Innovation** | Clinomic GmbH, Aachen | Jan 2021 — Mar 2022 |
 | Working Student, Data Science & AI | Aptiv Services Germany GmbH | Apr 2019 — Dec 2020 |
 
 M.Sc. Embedded Systems, TU Chemnitz · B.E. Electronics & Communication, VTU
@@ -42,12 +45,12 @@ M.Sc. Embedded Systems, TU Chemnitz · B.E. Electronics & Communication, VTU
 
 ### Stack
 
-- **Training & inference** — PyTorch · DDP · FSDP · TensorFlow · Keras · ONNX · TVM · scikit-learn · OpenCV
 - **LLM & retrieval** — HuggingFace · LangChain · Ollama · FAISS · vector databases
+- **Training & inference** — PyTorch · DDP · FSDP · TensorFlow · Keras · ONNX · TVM · scikit-learn · OpenCV
 - **Clusters & MLOps** — Slurm · Docker · Kubernetes · Podman · Argo Workflows · GitLab CI · GitHub Actions · GCP · AWS
 - **Languages** — Python · Bash · SQL · C
 
 ---
 
-<sub>Ask me about distributed training, pruning and quantization, or ML on embedded ARM.
-Best result so far: 2–4× faster inference, pruning and quantizing RADAR models onto an ARM target.</sub>
+<sub>Open to work on AI stuff. Happy to talk about LLM fine-tuning, agentic pipelines,
+distributed training, cluster scheduling, or getting a model small enough to actually ship.</sub>
