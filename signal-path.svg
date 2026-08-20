@@ -1,54 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 961 210" width="961" height="210" role="img" aria-label="Two training tracks that meet on the same cluster. Upper: PyTorch and TensorFlow through Autotrainer. Lower: HuggingFace through LoRA, LoReFT and PEFT adapters. Both converge on Slurm with DDP and FSDP and run on the GPUs.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 916 232" width="916" height="232" role="img" aria-label="Two training tracks that meet on the same cluster. Upper: PyTorch and TensorFlow through Autotrainer for distributed training. Lower: HuggingFace through LoRA, LoReFT and PEFT adapters in 4-bit. Both converge on Slurm with DDP and FSDP and run on the GPUs.">
 <title>Two tracks, one cluster</title>
 <style>
   .bx{fill:#121B2D;stroke:#26334A;stroke-width:1}
   .tx{fill:#8B9BB8;font-family:"Segoe UI",Helvetica,Arial,sans-serif;font-size:13px;font-weight:500}
-  .tune{fill:#241F45;stroke:#7B5CFF} .ttune{fill:#B9A8FF;font-weight:650}
-  .mine{fill:#332F2B;stroke:#FFB020} .tmine{fill:#FFB020;font-weight:700}
+  .sb{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:8.5px;letter-spacing:.08em;font-weight:400;fill:#7C8AA4}
+  .tune{fill:#241F45;stroke:#7B5CFF} .ttune{fill:#B9A8FF;font-weight:650} .stune{fill:#A899E8}
+  .mine{fill:#332F2B;stroke:#FFB020} .tmine{fill:#FFB020;font-weight:700}   .smine{fill:#FFC66A}
   .live{fill:#15333F;stroke:#2EE6D6} .tlive{fill:#2EE6D6;font-weight:600}
-  .lbl{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:9px;letter-spacing:.14em}
   .ln{stroke:#26334A;stroke-width:1.5;fill:none} .tip{fill:#26334A}
 </style>
-<rect x="0" y="0" width="961" height="210" rx="6" fill="#0D1422" stroke="#26334A"/>
-<text class="lbl" x="20" y="26" fill="#7C8AA4">MODEL &#8594; METAL</text>
-<line x1="0" y1="40" x2="961" y2="40" stroke="#26334A"/>
-<rect x="324" y="56" width="427" height="132" rx="4" fill="none" stroke="#2EE6D6" stroke-dasharray="3 3" opacity=".55"/>
-<text class="lbl" x="751" y="50" text-anchor="end" fill="#2EE6D6">THE LAYER I WORK ON</text>
-<rect class="bx " x="20" y="103" width="130" height="38" rx="3"/>
-<text class="tx " x="85.0" y="127" text-anchor="middle">Model · Data</text>
-<line class="ln" x1="154" y1="122" x2="164" y2="122"/>
-<line class="ln" x1="164" y1="88" x2="164" y2="156"/>
+<rect x="0" y="0" width="916" height="232" rx="6" fill="#0D1422" stroke="#26334A"/>
+<text class="lbl" x="20" y="26" fill="#7C8AA4" font-family="ui-monospace,Menlo,monospace" font-size="9" letter-spacing="1.3">MODEL &#8594; METAL</text>
+<line x1="0" y1="40" x2="916" y2="40" stroke="#26334A"/>
+<rect x="324" y="52" width="382" height="152" rx="4" fill="none" stroke="#2EE6D6" stroke-dasharray="3 3" opacity=".55"/>
+<text x="706" y="46" text-anchor="end" fill="#2EE6D6" font-family="ui-monospace,Menlo,monospace" font-size="9" letter-spacing="1.3">THE LAYER I WORK ON</text>
+<rect class="bx " x="20" y="103" width="130" height="50" rx="3"/>
+<text class="tx " x="85.0" y="133" text-anchor="middle">Model · Data</text>
+<line class="ln" x1="154" y1="128" x2="164" y2="128"/>
+<line class="ln" x1="164" y1="88" x2="164" y2="168"/>
 <line class="ln" x1="164" y1="88" x2="170" y2="88"/>
 <path class="tip" d="M176 88 l-7 -4 v8 z"/>
-<line class="ln" x1="164" y1="156" x2="170" y2="156"/>
-<path class="tip" d="M176 156 l-7 -4 v8 z"/>
-<rect class="bx " x="180" y="69" width="130" height="38" rx="3"/>
+<line class="ln" x1="164" y1="168" x2="170" y2="168"/>
+<path class="tip" d="M176 168 l-7 -4 v8 z"/>
+<rect class="bx " x="180" y="63" width="130" height="50" rx="3"/>
 <text class="tx " x="245.0" y="93" text-anchor="middle">PyTorch · TF</text>
-<rect class="bx " x="180" y="137" width="130" height="38" rx="3"/>
-<text class="tx " x="245.0" y="161" text-anchor="middle">HuggingFace</text>
+<rect class="bx " x="180" y="143" width="130" height="50" rx="3"/>
+<text class="tx " x="245.0" y="173" text-anchor="middle">HuggingFace</text>
 <line class="ln" x1="314" y1="88" x2="330" y2="88"/>
 <path class="tip" d="M336 88 l-7 -4 v8 z"/>
-<line class="ln" x1="314" y1="156" x2="330" y2="156"/>
-<path class="tip" d="M336 156 l-7 -4 v8 z"/>
-<rect class="bx mine" x="340" y="69" width="190" height="38" rx="3"/>
-<text class="tx tmine" x="435.0" y="93" text-anchor="middle">Autotrainer</text>
-<rect class="bx tune" x="340" y="137" width="190" height="38" rx="3"/>
-<text class="tx ttune" x="435.0" y="161" text-anchor="middle">LoRA · LoReFT · PEFT</text>
-<line class="ln" x1="534" y1="88" x2="544" y2="88"/>
-<line class="ln" x1="534" y1="156" x2="544" y2="156"/>
-<line class="ln" x1="544" y1="88" x2="544" y2="156"/>
-<line class="ln" x1="544" y1="122" x2="550" y2="122"/>
-<path class="tip" d="M556 122 l-7 -4 v8 z"/>
-<rect class="bx live" x="560" y="103" width="175" height="38" rx="3"/>
-<text class="tx tlive" x="647.5" y="127" text-anchor="middle">Slurm · DDP · FSDP</text>
-<line class="ln" x1="739" y1="122" x2="755" y2="122"/>
-<path class="tip" d="M761 122 l-7 -4 v8 z"/>
-<rect x="765" y="112" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
-<rect x="791" y="112" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
-<rect x="817" y="112" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
-<rect x="843" y="112" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
-<rect x="869" y="112" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
-<rect x="895" y="112" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
-<rect x="921" y="112" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
-<text class="lbl" x="848" y="155" text-anchor="middle" fill="#7C8AA4">GPU &#183; NODE</text>
+<line class="ln" x1="314" y1="168" x2="330" y2="168"/>
+<path class="tip" d="M336 168 l-7 -4 v8 z"/>
+<rect class="bx mine" x="340" y="63" width="145" height="50" rx="3"/>
+<text class="tx tmine" x="412.5" y="86" text-anchor="middle">Autotrainer</text>
+<text class="sb smine" x="412.5" y="102" text-anchor="middle">distributed training</text>
+<rect class="bx tune" x="340" y="143" width="145" height="50" rx="3"/>
+<text class="tx ttune" x="412.5" y="166" text-anchor="middle">LoRA · LoReFT</text>
+<text class="sb stune" x="412.5" y="182" text-anchor="middle">PEFT · 4-bit</text>
+<line class="ln" x1="489" y1="88" x2="499" y2="88"/>
+<line class="ln" x1="489" y1="168" x2="499" y2="168"/>
+<line class="ln" x1="499" y1="88" x2="499" y2="168"/>
+<line class="ln" x1="499" y1="128" x2="505" y2="128"/>
+<path class="tip" d="M511 128 l-7 -4 v8 z"/>
+<rect class="bx live" x="515" y="103" width="175" height="50" rx="3"/>
+<text class="tx tlive" x="602.5" y="133" text-anchor="middle">Slurm · DDP · FSDP</text>
+<line class="ln" x1="694" y1="128" x2="710" y2="128"/>
+<path class="tip" d="M716 128 l-7 -4 v8 z"/>
+<rect x="720" y="118" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
+<rect x="746" y="118" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
+<rect x="772" y="118" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
+<rect x="798" y="118" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
+<rect x="824" y="118" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
+<rect x="850" y="118" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
+<rect x="876" y="118" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
+<text x="803" y="162" text-anchor="middle" fill="#7C8AA4" font-family="ui-monospace,Menlo,monospace" font-size="9" letter-spacing="1.3">GPU &#183; NODE</text>
 </svg>
