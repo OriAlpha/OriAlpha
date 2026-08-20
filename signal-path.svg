@@ -1,47 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 172" width="920" height="172" role="img" aria-label="Signal path: model and data through PyTorch or TensorFlow, into Autotrainer and Slurm with DDP and FSDP, onto the GPUs. Autotrainer and Slurm are the layer I work on.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1171 172" width="1171" height="172" role="img" aria-label="Signal path: model and data through PyTorch and HuggingFace, then LoRA, LoReFT and PEFT adapters, Autotrainer, and Slurm with DDP and FSDP, onto the GPUs.">
 <title>The layer between a model and the metal it runs on</title>
 <style>
-  .bx   { fill:#121B2D; stroke:#26334A; stroke-width:1; }
-  .tx   { fill:#8B9BB8; font-family:"Segoe UI",Helvetica,Arial,sans-serif; font-size:14px; font-weight:500; }
-  .mine { fill:#332F2B; stroke:#FFB020; }
-  .live { fill:#15333F; stroke:#2EE6D6; }
-  .tmine{ fill:#FFB020; font-weight:700; }
-  .tlive{ fill:#2EE6D6; font-weight:600; }
-  .lbl  { font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace; font-size:9px; letter-spacing:.14em; }
-  .arw  { stroke:#26334A; stroke-width:1.5; fill:none; }
-  .tip  { fill:#26334A; }
-  .pk   { fill:#2EE6D6; }
-  @keyframes go { 0%{transform:translateX(0);opacity:0} 6%{opacity:1} 94%{opacity:1} 100%{transform:translateX(742px);opacity:0} }
-  .pk { animation: go 4s cubic-bezier(.5,.05,.5,.95) infinite; }
-  @media (prefers-reduced-motion: reduce) { .pk { display:none } }
+  .bx{fill:#121B2D;stroke:#26334A;stroke-width:1}
+  .tx{fill:#8B9BB8;font-family:"Segoe UI",Helvetica,Arial,sans-serif;font-size:13px;font-weight:500}
+  .tune{fill:#241F45;stroke:#7B5CFF} .ttune{fill:#B9A8FF;font-weight:650}
+  .mine{fill:#332F2B;stroke:#FFB020} .tmine{fill:#FFB020;font-weight:700}
+  .live{fill:#15333F;stroke:#2EE6D6} .tlive{fill:#2EE6D6;font-weight:600}
+  .lbl{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:9px;letter-spacing:.14em}
+  .arw{stroke:#26334A;stroke-width:1.5;fill:none} .tip{fill:#26334A}
+  .pk{fill:#2EE6D6;animation:go 4.4s cubic-bezier(.5,.05,.5,.95) infinite}
+  @keyframes go{0%{transform:translateX(0);opacity:0}5%{opacity:1}95%{opacity:1}100%{transform:translateX(1015px);opacity:0}}
+  @media (prefers-reduced-motion:reduce){.pk{display:none}}
 </style>
-<rect x="0" y="0" width="920" height="172" rx="6" fill="#0D1422" stroke="#26334A"/>
+<rect x="0" y="0" width="1171" height="172" rx="6" fill="#0D1422" stroke="#26334A"/>
 <text class="lbl" x="20" y="26" fill="#7C8AA4">MODEL &#8594; METAL</text>
-<line x1="0" y1="40" x2="920" y2="40" stroke="#26334A"/>
-<rect x="368" y="66" width="348" height="84" rx="4" fill="none" stroke="#2EE6D6" stroke-dasharray="3 3" opacity=".55"/>
-<text class="lbl" x="716" y="60" text-anchor="end" fill="#2EE6D6">THE LAYER I WORK ON</text>
-<rect class="bx " x="20" y="86" width="120" height="42" rx="3"/>
-<text class="tx " x="80.0" y="112" text-anchor="middle">Model &#183; Data</text>
-<line class="arw" x1="146" y1="107" x2="162" y2="107"/>
-<path class="tip" d="M168 107 l-7 -4 v8 z"/>
-<rect class="bx " x="174" y="86" width="160" height="42" rx="3"/>
-<text class="tx " x="254.0" y="112" text-anchor="middle">PyTorch &#183; TensorFlow</text>
-<line class="arw" x1="340" y1="107" x2="356" y2="107"/>
-<path class="tip" d="M362 107 l-7 -4 v8 z"/>
-<rect class="bx mine" x="380" y="86" width="148" height="42" rx="3"/>
-<text class="tx tmine" x="454.0" y="112" text-anchor="middle">Autotrainer</text>
-<line class="arw" x1="534" y1="107" x2="546" y2="107"/>
-<path class="tip" d="M552 107 l-7 -4 v8 z"/>
-<rect class="bx live" x="556" y="86" width="148" height="42" rx="3"/>
-<text class="tx tlive" x="630.0" y="112" text-anchor="middle">Slurm &#183; DDP &#183; FSDP</text>
-<line class="arw" x1="722" y1="107" x2="738" y2="107"/>
-<path class="tip" d="M744 107 l-7 -4 v8 z"/>
-<rect x="750" y="97" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
-<rect x="776" y="97" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
-<rect x="802" y="97" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
-<rect x="828" y="97" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
-<rect x="854" y="97" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
-<rect x="880" y="97" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
-<text class="lbl" x="828" y="140" text-anchor="middle" fill="#7C8AA4">GPU &#183; NODE</text>
-<circle class="pk" cx="150" cy="107" r="3.5"/>
+<line x1="0" y1="40" x2="1171" y2="40" stroke="#26334A"/>
+<rect x="390" y="66" width="575" height="84" rx="4" fill="none" stroke="#2EE6D6" stroke-dasharray="3 3" opacity=".55"/>
+<text class="lbl" x="965" y="60" text-anchor="end" fill="#2EE6D6">THE LAYER I WORK ON</text>
+<rect class="bx " x="20" y="86" width="134" height="42" rx="3"/>
+<text class="tx " x="87.0" y="112" text-anchor="middle">Model · Data</text>
+<line class="arw" x1="158" y1="107" x2="168" y2="107"/>
+<path class="tip" d="M174 107 l-7 -4 v8 z"/>
+<rect class="bx " x="178" y="86" width="202" height="42" rx="3"/>
+<text class="tx " x="279.0" y="112" text-anchor="middle">PyTorch · HuggingFace</text>
+<line class="arw" x1="384" y1="107" x2="394" y2="107"/>
+<path class="tip" d="M400 107 l-7 -4 v8 z"/>
+<rect class="bx tune" x="404" y="86" width="194" height="42" rx="3"/>
+<text class="tx ttune" x="501.0" y="112" text-anchor="middle">LoRA · LoReFT · PEFT</text>
+<line class="arw" x1="602" y1="107" x2="612" y2="107"/>
+<path class="tip" d="M618 107 l-7 -4 v8 z"/>
+<rect class="bx mine" x="622" y="86" width="126" height="42" rx="3"/>
+<text class="tx tmine" x="685.0" y="112" text-anchor="middle">Autotrainer</text>
+<line class="arw" x1="752" y1="107" x2="762" y2="107"/>
+<path class="tip" d="M768 107 l-7 -4 v8 z"/>
+<rect class="bx live" x="772" y="86" width="179" height="42" rx="3"/>
+<text class="tx tlive" x="861.5" y="112" text-anchor="middle">Slurm · DDP · FSDP</text>
+<line class="arw" x1="955" y1="107" x2="965" y2="107"/>
+<path class="tip" d="M971 107 l-7 -4 v8 z"/>
+<rect x="975" y="97" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
+<rect x="1001" y="97" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
+<rect x="1027" y="97" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
+<rect x="1053" y="97" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
+<rect x="1079" y="97" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
+<rect x="1105" y="97" width="20" height="20" rx="2" fill="#1B2537" stroke="#26334A"/>
+<rect x="1131" y="97" width="20" height="20" rx="2" fill="#121B2D" stroke="#26334A"/>
+<text class="lbl" x="1058" y="140" text-anchor="middle" fill="#7C8AA4">GPU &#183; NODE</text>
+<circle class="pk" cx="40" cy="107" r="3.5"/>
 </svg>
