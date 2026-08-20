@@ -4,7 +4,7 @@
 
 **I work on the layer between a model and the metal it runs on.**
 
-Computer Research Scientist, AI at Universitätsklinikum Tübingen. Seven years
+Computer Research Scientist, AI at Universitätsklinikum Tübingen. Five years
 of getting models to run somewhere real — distributed across a Slurm cluster,
 served through a traced inference pipeline, or running entirely offline on
 someone's own machine.
