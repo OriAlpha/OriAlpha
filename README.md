@@ -1,4 +1,4 @@
-<img src="signal-path.svg" alt="Signal path: model and data, through PyTorch or TensorFlow, into Autotrainer and Slurm, onto the GPUs" width="100%">
+<img src="signal-path.svg" alt="The full path a model takes: training through Autotrainer and PEFT adapters onto a Slurm cluster, then serving through quantization and RAG pipelines with InfraSight tracing" width="100%">
 
 # Suhas Goravale Siddaramu
 
