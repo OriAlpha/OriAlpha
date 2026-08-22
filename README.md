@@ -9,7 +9,7 @@ of getting models to run somewhere real — distributed across a Slurm cluster,
 served through a traced inference pipeline, or running entirely offline on
 someone's own machine.
 
-**Focus** — LLM fine-tuning and serving · agentic RAG pipelines · multi-node training · inference optimization
+**Focus** — Distributed training on Slurm · LLM PEFT fine-tuning · Quantization & inference optimization · Agentic RAG
 
 📍 Reutlingen, Germany &nbsp;·&nbsp; 🌐 **[orialpha.github.io](https://orialpha.github.io)** &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/goravalesuhas)
 
@@ -52,5 +52,5 @@ M.Sc. Embedded Systems, TU Chemnitz · B.E. Electronics & Communication, VTU
 
 ---
 
-<sub>Open to work on AI stuff. Happy to talk about LLM fine-tuning, agentic pipelines,
-distributed training, cluster scheduling, or getting a model small enough to actually ship.</sub>
+<sub>Open to ML infrastructure & engineering opportunities. Happy to discuss LLM fine-tuning, agentic pipelines,
+distributed training, cluster scheduling, or inference optimization.</sub>
