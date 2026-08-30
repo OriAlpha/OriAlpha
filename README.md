@@ -1,4 +1,4 @@
-<img src="signal-path.svg" alt="The full path a model takes: training through Autotrainer and PEFT adapters onto a Slurm cluster, then serving through quantization and RAG pipelines with InfraSight tracing" width="100%">
+<img src="signal-path.svg" alt="The full path a model takes: training through Autotrainer and PEFT adapters onto a Slurm cluster, then serving through AutoDistiller optimization and RAG pipelines with InfraSight tracing" width="100%">
 
 # Suhas Goravale Siddaramu
 
@@ -19,6 +19,7 @@ someone's own machine.
 
 | | | |
 |---|---|---|
+| **[AutoDistiller](https://github.com/OriAlpha/autodistiller)** | Automatically find the best LLM deployment configuration for your hardware and quality constraints. Compresses candidates (AWQ, FP8, INT8), evaluates accuracy retention, and benchmarks in real vLLM/llama.cpp servers. | `Python` |
 | **[Autotrainer](https://github.com/OriAlpha/Autotrainer)** | Hand it a model and data — it finds the hardware, picks the distribution strategy, and infers the training recipe. PyTorch DDP, Slurm multi-node, TensorFlow, scikit-learn through one API. | `Python` |
 | **[SlurmGenie](https://github.com/OriAlpha/SlurmGenie)** | An offline copilot for Slurm GPU clusters. Diagnoses failed jobs, watches GPU utilization, rewrites sbatch scripts. Installs air-gapped. | `Python` |
 | **[InfraSight](https://github.com/OriAlpha/InfraSight)** | A transparent proxy that watches LLM, RAG and agent traffic — request logs, PII masking, nested agent traces, LLM-as-a-judge scoring. | `JavaScript` |
@@ -46,7 +47,7 @@ M.Sc. Embedded Systems, TU Chemnitz · B.E. Electronics & Communication, VTU
 ### Stack
 
 - **LLM & retrieval** — HuggingFace · LangChain · Ollama · FAISS · vector databases
-- **Training & inference** — PyTorch · DDP · FSDP · TensorFlow · Keras · ONNX · TVM · scikit-learn · OpenCV
+- **Training & inference** — PyTorch · DDP · FSDP · vLLM · llama.cpp · TensorFlow · Keras · ONNX · TVM · scikit-learn · OpenCV
 - **Clusters & MLOps** — Slurm · Docker · Kubernetes · Podman · Argo Workflows · GitLab CI · GitHub Actions · GCP · AWS
 - **Languages** — Python · Bash · SQL · C
 

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 244" width="1128" height="244" role="img" aria-label="The full path a model takes. Training: model and data split into PyTorch with Autotrainer for distributed training, and HuggingFace with LoRA, LoReFT and PEFT adapters; both converge on Slurm across GPU nodes, guided by SlurmGenie. Serving: quantization and pruning through vLLM, ONNX, and GGUF, and RAG and agent pipelines on FAISS, Ollama, and LangChain; both converge on InfraSight for traces and evals, and are served.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 244" width="1128" height="244" role="img" aria-label="The full path a model takes. Training: model and data split into PyTorch with Autotrainer for distributed training, and HuggingFace with LoRA, LoReFT and PEFT adapters; both converge on Slurm across GPU nodes, guided by SlurmGenie. Serving: quantization and pruning through AutoDistiller across vLLM and llama.cpp, and RAG and agent pipelines on FAISS, Ollama, and LangChain; both converge on InfraSight for traces and evals, and are served.">
 <title>What I work on — model to metal to served</title>
 <style>
   .bx{fill:#121B2D;stroke:#26334A;stroke-width:1}
@@ -80,8 +80,8 @@
 
 <!-- Serving & Retrieval -->
 <rect class="bx opt" x="692" y="78" width="156" height="52" rx="3"/>
-<text class="lb lopt" x="770.0" y="101" text-anchor="middle">Quantize · Prune</text>
-<text class="sb sopt" x="770.0" y="118" text-anchor="middle">vLLM · ONNX · GGUF</text>
+<text class="lb lopt" x="770.0" y="101" text-anchor="middle">AutoDistiller</text>
+<text class="sb sopt" x="770.0" y="118" text-anchor="middle">quantize · benchmark</text>
 
 <rect class="bx rag" x="692" y="142" width="156" height="52" rx="3"/>
 <text class="lb lrag" x="770.0" y="165" text-anchor="middle">RAG · Agents</text>
