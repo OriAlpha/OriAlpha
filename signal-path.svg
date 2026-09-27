@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 244" width="1128" height="244" role="img" aria-label="The full path a model takes. Training: model and data split into PyTorch with Autotrainer for distributed training, and HuggingFace with LoRA, LoReFT and PEFT adapters; both converge on Slurm across GPU nodes, guided by SlurmGenie. Serving: quantization and pruning through AutoDistiller across vLLM and llama.cpp, and RAG and agent pipelines on FAISS, Ollama, and LangChain; both converge on InfraSight for traces and evals, and are served.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 346" width="1128" height="346" role="img" aria-label="The full path a model takes. Training: model and data split into PyTorch with Autotrainer for distributed training, and HuggingFace with LoRA, LoReFT and PEFT adapters; both converge on Slurm across GPU nodes, guided by SlurmGenie. Serving: quantization and pruning through AutoDistiller across vLLM and llama.cpp, and RAG and agent pipelines on FAISS, Ollama, and LangChain; both converge on InfraSight for traces and evals, and are served. DeFuel is deployed as an independent live production application.">
 <title>What I work on — model to metal to served</title>
 <style>
   .bx{fill:#121B2D;stroke:#26334A;stroke-width:1}
@@ -12,8 +12,9 @@
   .tune,.rag{fill:#241F45;stroke:#7B5CFF}  .ltune,.lrag{fill:#B9A8FF;font-weight:650} .stune,.srag{fill:#A899E8}
   .live{fill:#15333F;stroke:#2EE6D6}       .llive{fill:#2EE6D6;font-weight:600} .slive{fill:#7FD8D0}
   .opt{fill:#3A1F2E;stroke:#FF3D8B}        .lopt{fill:#FF8FB8;font-weight:650} .sopt{fill:#E88BAC}
+  .app{fill:#16322A;stroke:#10B981}        .lapp{fill:#34D399;font-weight:700} .sapp{fill:#6EE7B7}
 </style>
-<rect x="0" y="0" width="1128" height="244" rx="6" fill="#0D1422" stroke="#26334A"/>
+<rect x="0" y="0" width="1128" height="346" rx="6" fill="#0D1422" stroke="#26334A"/>
 <line class="dv" x1="660" y1="34" x2="660" y2="212"/>
 <text class="ph" x="24" y="24">TRAIN</text>
 <text class="ph" x="674" y="24">SERVE</text>
@@ -106,4 +107,13 @@
 <!-- Served -->
 <rect class="bx" x="1028" y="110" width="76" height="52" rx="3"/>
 <text class="lb" x="1066.0" y="141" text-anchor="middle">Served</text>
+
+<!-- ═════ Independent Project: DeFuel ═════ -->
+<line class="dv" x1="332" y1="230" x2="620" y2="230"/>
+<text class="ph" x="543.0" y="246" text-anchor="middle">Independent Production Application</text>
+<line class="wire dash" x1="543" y1="252" x2="543" y2="268"/>
+
+<rect class="bx app" x="418" y="268" width="250" height="54" rx="4"/>
+<text class="lb lapp" x="543.0" y="292" text-anchor="middle">DeFuel ↗</text>
+<text class="sb sapp" x="543.0" y="309" text-anchor="middle">Fuel &amp; EV Predictive Intelligence</text>
 </svg>

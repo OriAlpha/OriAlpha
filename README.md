@@ -19,6 +19,7 @@ someone's own machine.
 
 | | | |
 |---|---|---|
+| **[DeFuel](https://defuel.vercel.app/)** | Live German fuel and EV charging price intelligence backed by an ML forecasting engine. Predicts intraday price curves to pinpoint optimal fill-up windows, with route planning. | `TypeScript` |
 | **[AutoDistiller](https://github.com/OriAlpha/autodistiller)** | Automatically find the best LLM deployment configuration for your hardware and quality constraints. Compresses candidates (AWQ, FP8, INT8), evaluates accuracy retention, and benchmarks in real vLLM/llama.cpp servers. | `Python` |
 | **[Autotrainer](https://github.com/OriAlpha/Autotrainer)** | Hand it a model and data — it finds the hardware, picks the distribution strategy, and infers the training recipe. PyTorch DDP, Slurm multi-node, TensorFlow, scikit-learn through one API. | `Python` |
 | **[SlurmGenie](https://github.com/OriAlpha/SlurmGenie)** | An offline copilot for Slurm GPU clusters. Diagnoses failed jobs, watches GPU utilization, rewrites sbatch scripts. Installs air-gapped. | `Python` |
